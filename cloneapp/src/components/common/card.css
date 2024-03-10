@@ -1,0 +1,45 @@
+.imgcont{
+    width: 330px;
+    height: 240px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgcont img {
+    margin: 0px;
+    width: 100%;
+    height:100%;
+    border-radius: 20px;
+
+}
+
+.cardcont{
+    width: 340px;
+    height: 371px;
+    
+    padding: 10px;
+    margin: 10px 0px 5px 0px;
+}
+
+.cardcont:hover{
+    scale: 1.01;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 20px;
+}
+
+.cardarticle{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.datacont *{
+    margin: 0px;
+}
+
+.datacont p{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}

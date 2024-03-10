@@ -12,7 +12,7 @@ const Header = () => {
                     <div className='flex-items left-items'>
                         <div className='location-icon'><i class="material-icons ">location_on</i></div>
                         <input type='text' placeholder='Visakhapatnam'/>
-                        <i class="material-icons">expand_more</i>
+                        <i class="material-icons">arrow_drop_down</i>
                     </div>
                     
                     <div className='flex-items right-items'>

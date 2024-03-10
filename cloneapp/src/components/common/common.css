@@ -3,10 +3,21 @@
     margin:0px auto;
 }
 
-
+p{
+    font-weight: 300;
+    color: rgb(54, 54, 54);
+    line-height: 2;
+    font-size: 1.5rem;
+}
 
 .flex-items{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+.artcle{
+    font-weight:500 ;
+    font-size: 1.8rem;
+    padding: 3px 0px 0px 0px;
 }

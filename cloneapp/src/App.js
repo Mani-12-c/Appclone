@@ -3,6 +3,7 @@ import React from 'react'
 import Header from './components/header/Header'
 import TabOptions from './components/tabOptions/TabOptions'
 import { useState } from 'react'
+import Diningout from './components/diningout/Diningout'
 
 
 const App = () => {
@@ -24,7 +25,7 @@ const App = () => {
 
 const getCurrentScreen =(option)=>{
     switch(option){
-      // case "diningout":return "Dining Out";
+      case "diningout":return <Diningout/>;
       case "Delivery":return "Delivey";
       case "NightLife":return "NightLife";
       // default :return "Dining Out"
