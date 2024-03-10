@@ -1,0 +1,15 @@
+
+.Header{
+    display: flex;
+    align-items: center;
+}
+.header-icon{
+    max-width: 140px;
+    height: 27px;
+}
+
+.header-items{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
