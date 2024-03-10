@@ -2,3 +2,11 @@
     max-width: 1100px;
     margin:0px auto;
 }
+
+
+
+.flex-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
