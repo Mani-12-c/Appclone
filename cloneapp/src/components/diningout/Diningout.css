@@ -47,6 +47,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 5px;
 }
 .cont i{
     margin: 0px 4px;

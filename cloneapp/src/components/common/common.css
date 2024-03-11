@@ -10,6 +10,11 @@ p{
     font-size: 1.5rem;
 }
 
+.flex{
+    display: flex;
+    align-items: center;
+}
+
 .flex-items{
     display: flex;
     align-items: center;

@@ -1,14 +1,14 @@
 .imgcont{
-    width: 330px;
-    height: 240px;
+    width: 340px;
+    height: 245px;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
 }
 
 .imgcont img {
-    margin: 0px;
-    width: 100%;
+    margin: 3px 5px ;
+    width: 98%;
     height:100%;
     border-radius: 20px;
 
@@ -16,9 +16,9 @@
 
 .cardcont{
     width: 340px;
-    height: 371px;
-    
-    padding: 10px;
+    height: auto;
+    /* border: 1px solid black; */
+    padding: 5px;
     margin: 10px 0px 5px 0px;
 }
 
@@ -36,10 +36,41 @@
 }
 
 .datacont *{
-    margin: 0px;
+    margin: 0px 6px;
+}
+
+.datacont{
+    margin: 7px  0px;
 }
 
 .datacont p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
+    color: rgb(156, 156, 156);
+}
+
+.staricn{
+    font-size: 0.6rem;
+    color: #ffffff;
+    padding: 0px;
+    font-weight: 600;
+    margin: 3px;
+}
+
+.rating{
+    color: white;
+    background: green;
+    font-size: 0.9rem;
+    font-weight: 800;
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    padding: 1px;
+}
+
+.dat{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
