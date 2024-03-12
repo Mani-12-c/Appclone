@@ -3,10 +3,10 @@ import "./card.css"
 
 
 const Card = (data) => {
-    // console.log(data.data)
+    console.log(data)
   return (
     <div className='cardcont'>
-        <div className='imgcont'><img src={data.data.url}/></div>
+        <div className='imgcont'><img src={data.data.image}/></div>
         <div className='datacont' >
           <div className='dat'>
             <article className='cardarticle'>{data.data.title}</article>
