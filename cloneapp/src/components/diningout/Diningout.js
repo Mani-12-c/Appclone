@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Diningout.css"
 import Card from '../common/Card'
+import data from './data'
 
 const items = [
     "https://b.zmtcdn.com/data/collections/a4eab277c70b4c95623183d2cb5467cb_1685354194.jpg",
@@ -9,18 +10,8 @@ const items = [
     "https://b.zmtcdn.com/data/collections/3157c14387f705410a2698c0e45a9e82_1685350560.png"
 ]
 
-const data = [
-    {
-        url:"https://b.zmtcdn.com/data/pictures/chains/1/2800901/a339bbb67c515ac43d4891990a731dbb_featured_v2.jpg?output-format=webp",
-        title:"Paradise Biriyani",
-        des:"Biriyani,Kebab,North india",
-        loc:"Gajuwaka,Vizag",
-        time:"Closes in 4 minutes",
-        rating:"4.0",
-        price:"₹850 for two",
-        dist:"1.6km"
-    }
-]
+
+
 
 const Diningout = () => {
     return (
@@ -28,7 +19,7 @@ const Diningout = () => {
             <section className='maincontainer'>
                 <div className='max-width '>
                     <h2><article className='artcle'>Collections</article></h2>
-                    <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Visakhapatnam, based on trends</p>
+                    <h6>Explore curated lists of top restaurants, cafes, pubs, and bars in Visakhapatnam, based on trends</h6>
                     <div className='cardscontainer flex-items'>
                         {items.map((item, index) => (
                             <div key={index} className='cardcontainer'>
@@ -63,8 +54,14 @@ const Diningout = () => {
                     <div>
                         <article className='artcle'>Trending dining restaurants in Visakhapatnam</article>
                     </div>
-                    <div>
-                        <Card data={data[0]}/>
+
+                    <div className='max-width flex-items menu-items'>
+                        {  
+                            data.map((data)=>{
+                                return <Card data={data}/>
+                            })
+                        }
+                        
                     </div>
                 </div>
             
